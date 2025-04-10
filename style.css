@@ -1,0 +1,46 @@
+@font-face{
+  src:url("DS-DIGI.TTF");
+  font-family: digital ;
+}
+body{
+  text-align: center ;
+  font-family:digital;
+}
+#first-container{
+  width: 400px;
+  margin:auto;
+  background-color:#057857;
+  padding: 20px ;
+}
+#container{
+  display: flex;
+  justify-content: space-around;
+}
+#main{
+  padding: 10px ;
+  width:300px;
+  margin: 20px ;
+}
+#guest-score, #home-score{
+  font-size:70px;
+  margin: 0;
+  padding: 0;
+  color:red;
+  background:#064D3B;
+  margin: 8px auto;
+  width:80px ;
+}
+#home-h,#guest-h{
+  padding: 0;
+  margin: 0;
+  color:#D0FAE4;
+}
+button{
+  background: none;
+  border: 2px solid white;
+  font-family:digital;
+  color: white;
+}
+#reset-but{
+   width:80px ;
+}
