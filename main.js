@@ -46,6 +46,8 @@ function guestThree(){
 }
 
 function resetResult(){
-  guestScore.innerText = 0
-  homeScore.innerText = 0
+    guestCount = 0
+  guestScore.innerText = guestCount
+  homeCount = 0
+  homeScore.innerText = homeCount
 }
